@@ -1,0 +1,308 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    color: rgba(39, 76, 91, 1);
+    font-weight: bold;
+    font-size: 62.5%;
+   
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4.5rem;
+    margin-right: 4rem;
+}
+
+.header_container{
+    display: flex;
+    align-items: center;
+    gap: 45rem;
+}
+
+.header_gauche{
+    display: flex;
+    align-items: center;
+    gap: 4.6rem;
+   
+    
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.logo_img{
+    width: 2.658rem;
+    height: 4.372rem;
+    border: 0.2rem ;
+}
+
+.logo h1{
+   font-size: 2rem;
+   line-height: 4.453rem;
+}
+
+
+.header_span{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 22.079;
+
+}
+
+.header_droite{
+    display: flex;
+    align-items: center;   
+    gap: 1.8rem;
+
+}
+
+.search_img{
+    width: 2.5rem;
+}
+
+.panier_img{
+    width: 2.5rem;
+}
+
+.header_droite .panier{
+display: flex;
+align-items: center;
+gap: 1rem;
+width: 11.9rem;
+height: 4.6rem;
+border-radius: 3.3rem;
+border: 0.1rem solid rgba(224, 224, 224, 1);
+}
+
+.header_droite p{
+   
+font-size: 1.8rem;
+font-weight: 60;
+line-height: 2.1rem;
+letter-spacing: 0em;
+text-align: left;
+font-weight: bold;
+}
+
+.banner-up {
+    margin-top: 3rem;
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.title {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-top: 13rem;
+    margin-left: 45%;
+    font-size: 3.5rem;
+}
+#listeP{
+    position:relative;
+    z-index: 2;
+    margin-top: 40rem;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,auto);
+}
+.productDiv{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 17rem;
+    height: 29rem;
+    padding-left: 1rem;
+    border-radius: 1.6rem;
+    background-color: #f9f8f8;
+    margin: 1rem 2rem;
+    cursor: pointer;
+    transition: border 3s ease-in-out ; 
+}
+.productDiv:hover{
+    border: 0.1rem solid #274c5b;
+   
+}
+
+
+.productDivUp{
+    display: flex;
+    justify-content: space-between; 
+    
+}
+
+.productImgCategory{
+    position: absolute;
+    z-index: 1;
+    width: 7rem;
+    margin-top: 7px;
+
+}
+.productImgPanier{
+    width: 2.5rem;
+    position: absolute;
+    z-index: 2; 
+    margin-left: 12rem;
+    margin-top: 6px;
+}
+
+.productCategory{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+   
+}
+.productImgPull{
+    width: 15rem;
+    height: 18rem;
+    margin-top: 4rem;
+    border-radius: 2rem;
+
+}
+
+.productTitre{
+font-size: 1.5rem;
+
+}
+.productDivDown{ 
+    display: flex; 
+}
+
+.productPrice{
+    font-size: 1rem;
+    position: absolute;
+    z-index: 2;
+
+
+}
+.productImgStar{
+    width: 5rem;
+    margin-left: 11rem;
+}
+
+.banner-down{
+    margin-top: 3rem;
+    width: 80%;
+    height: 20rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    margin-top: 5rem;   
+    margin-left: 9rem;
+}
+.c3{
+    width: 65rem;
+    color: white;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content:space-between;
+    margin-top: 11rem;
+    margin-left: 15rem;
+    align-items: center;
+    border: none;
+}
+
+.sub{
+    font-size: 2.3rem;
+}
+.e_text{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 10px;
+    border: none;
+   color: gray;
+   cursor: pointer;
+}
+.e_button{
+    height: 4.4rem;
+    width: 9rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #274c5b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    font-weight: bold;
+    
+    
+}
+.e_button:hover{
+   background-color: #12759c;
+    
+}
+.e_button:active{
+    font-size: 1rem;
+    
+ }
+ .finalcontainer{
+    margin-top: 30rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+ }
+ .part1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    box-shadow: 1px 0 #a1a1a1;
+    padding-right: 3rem;
+ }
+ .part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+ }
+ .part3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    box-shadow: -1px 0 #a1a1a1;
+    padding-left: 3rem;
+ }
+ .ll{
+    width: 2.2rem;
+ }
+ .lg{
+    width:2.6rem ;
+ }
+ .sp{
+    color: #a1a1a1;
+    font-weight: 300;
+    font-size: 15px;
+ }
+ .log{
+    font-weight: bold;
+    font-size: 1.9rem;
+ }
+ .lastlogo{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+ }
+
+
+
+
+ 

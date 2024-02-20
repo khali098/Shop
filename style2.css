@@ -1,0 +1,211 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    color: rgba(39, 76, 91, 1);
+    font-weight: bold;
+    font-size: 62.5%;
+   
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 10.536rem;
+    margin-left: 4.5rem;
+    margin-right: 10rem;
+}
+
+.header_gauche{
+    display: flex;
+    align-items: center;
+    gap: 4.6rem;
+   
+    
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.logo_img{
+    width: 2.658rem;
+    height: 4.372rem;
+    border: 0.2rem ;
+}
+
+.logo h1{
+   font-size: 2rem;
+   line-height: 4.453rem;
+}
+
+
+.header_span{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 22.079;
+
+}
+
+.header_droite{
+    display: flex;
+    align-items: center;
+    
+
+    
+    gap: 1.8rem;
+
+}
+
+.search_img{
+    width: 2.5rem;
+}
+
+.panier_img{
+    width: 2.5rem;
+}
+
+.header_droite .panier{
+display: flex;
+align-items: center;
+gap: 1rem;
+width: 11.9rem;
+height: 4.6rem;
+border-radius: 3.3rem;
+border: 0.1rem solid rgba(224, 224, 224, 1);
+}
+
+.header_droite p{
+   
+font-size: 1.8rem;
+font-weight: 60;
+line-height: 2.1rem;
+letter-spacing: 0em;
+text-align: left;
+font-weight: bold;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.centered-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered-text {
+    color: white; 
+    font-size: 2rem; 
+}
+
+#listeP{
+    position: relative;
+    
+    z-index: 2;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.productDiv{
+    display: flex;
+    gap: 5rem;
+}
+
+
+.productDivUp{
+    position: relative;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1rem;
+    background-color: #f9f8f8;
+    cursor: pointer;
+    transition:  0.5s  ;
+}
+.productDivUp:hover{
+    background-color: rgba(39, 76, 91, 1);
+}
+
+
+.productImgCategory{
+    position: absolute;
+    z-index: 1;
+    width: 7rem;
+    margin-top: 7px;
+
+}
+
+
+.productCategory{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+   
+}
+
+.productImgPull{
+    width: 15rem;
+    height: 18rem;
+    margin-top: 3rem;
+    border-radius: 1.6rem;
+
+   
+}
+
+.productDivDown{
+    width: 30rem;
+    
+   
+   
+}
+.productTitre{
+font-size: 3rem;
+margin-top: 5rem;
+margin-bottom: 0;
+
+}
+.productPrice{
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: 2rem;
+
+}
+.productImgStar{
+    position: absolute;
+    width: 10rem;
+    
+}
+
+.productDescription{
+    font-size: 1rem;
+    color: rgb(156, 156, 156);
+    font-family: sans-serif;
+    margin-top: 5rem;
+    font-weight: 10;
+
+}
